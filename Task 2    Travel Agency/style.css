@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+button {
+  cursor: pointer;
+}
+
+/* HEADER */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 30px;
+}
+.nav-content .one {
+  padding: 20px;
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+.reg-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.reg-btn:hover {
+  background-color: rgb(98, 98, 98);
+}
+
+/* MAIN CONTENT */
+
+.content-img {
+  width: 1200px;
+  margin: 50px auto;
+  position: relative;
+}
+.main-img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.absolute-content {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+.absolute-content h1 {
+  color: white;
+  font-size: 40px;
+  margin: 10px;
+}
+.absolute-content p {
+  color: white;
+  font-size: 25px;
+  padding: 40px 0px;
+  width: 600px;
+}
+.absolute-content button {
+  background-color: black;
+  color: white;
+  padding: 20px 10px;
+  border-radius: 154px;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  font-size: 15px;
+}
+
+/* INPUT UNDER CONTENT BOX */
+
+.main-input-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  padding: 6px;
+  position: absolute;
+  top: 580px;
+  left: 200px;
+  border-radius: 10px;
+  border: 1px solid rgb(157, 157, 157);
+  width: 45%;
+  margin: 5px auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main-input-box .ip-1 {
+  padding: 0px;
+}
+.main-input-box .ip-1 input {
+  margin-top: 10px;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  font-size: 14px;
+}
+.main-input-box .ip-1 h3 {
+  margin-left: 10px;
+}
+.main-input-box .ip-1 h3 i {
+  transition: 0.3s linear;
+}
+
+.ip-num {
+  width: 150px;
+}
+.main-input-box .ip-1 input[type="button"] {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 13px;
+  margin-left: 10px;
+}
+
+/* COUNTRYS TO TRAVEL */
+.main-country {
+  padding: 50px 20px;
+}
+.card {
+  width: 350px;
+
+  padding: 20px;
+}
+.card .two {
+  width: 100%;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.card h4 {
+  padding-left: 14px;
+  margin: 5px;
+}
+.card button {
+  color: white;
+  background-color: black;
+  padding: 13px 15px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+}
+
+.inner-p {
+  margin: 0px;
+  margin-left: 15px;
+}
+.main-card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  padding: 10px;
+}
+.main-country h2 {
+  text-align: center;
+}
+
+/* BEST PACKAGES */
+.bp {
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 60px;
+}
+.main-package {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.package {
+  width: 260px;
+  padding: 18px;
+  border-radius: 20px;
+  border: 3px rgb(134, 152, 171) solid;
+  border-color: whitesmoke;
+}
+.package h3 {
+  text-align: center;
+  background-color: rgb(169, 255, 169);
+  border-radius: 10px;
+  padding: 0px;
+  width: 120px;
+  font-size: 17px;
+  margin-bottom: 19px;
+  margin-top: 5px;
+  margin-left: 70px;
+}
+.package img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.package p {
+  font-size: 12px;
+  padding: 2px;
+}
+.pp {
+  text-align: center;
+}
+.inner-package {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+.inner-package .ip-1 i {
+  color: red;
+  padding: 2px;
+}
+.m-i {
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+  padding: 3px;
+  border: none;
+}
+.inner-package .ip-2 i {
+  color: skyblue;
+  padding: 2px;
+}
+.inner-package .ip-2 .mon {
+  padding: 1px;
+  margin-left: 3px;
+}
+.btn-rotate {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 100%;
+  width: 60px;
+  border: none;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.6s;
+}
+.btn-rotate:hover {
+  transform: rotate(360deg);
+}
+
+/* DESTINATION CONTENT */
+
+.main-des-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin-top: 150px;
+}
+.countries {
+  padding: 5px;
+}
+.our-des-1 button {
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  border-radius: 35px;
+  border: none;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.our-des-2 {
+  width: 400px;
+  position: relative;
+}
+.airplane {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.more-btn:hover {
+  background-color: rgb(98, 98, 98);
+}
+
+.inner-des-1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 100px;
+  padding: 5px;
+  background-color: white;
+  left: -70px;
+  box-shadow: rgba(0, 0, 0, 0.35) -4px 15px 15px;
+}
+
+.bi-heart-fill {
+  color: red;
+}
+
+.bi-chat-fill {
+  color: skyblue;
+}
+.inner-des-2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  position: absolute;
+  top: 80px;
+  padding: 5px;
+  background-color: white;
+  right: -70px;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 15px 15px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  text-align: center;
+}
+
+.ip-box {
+  padding: 15px 85px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 45px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.sub {
+  font-size: 30px;
+}
+.inner-footer button {
+  color: white;
+  background-color: black;
+  padding: 13px 15px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border: none;
+  font-size: 18px;
+  position: absolute;
+  right: 545px;
+}
+.inner-footer {
+  position: relative;
+}
+.footer-p {
+  width: 350px;
+  margin-left: 590px;
+}
+
+.in-fo-1 {
+  width: 130px;
+  font-size: 16px;
+}
+.in-fo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.hr {
+  border: 1px solid black;
+}
